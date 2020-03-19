@@ -1,0 +1,17 @@
+.search {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    background-color: #0ccac4;
+    border: 3px solid rgba(7, 27, 82, 1);
+    border-radius: 50px;
+    box-shadow: 4px 6px rgba(7, 27, 82, 0.3);
+}
+
+.search::placeholder{
+    color: rgba(7, 27, 82, 1);
+}
